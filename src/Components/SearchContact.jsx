@@ -18,7 +18,7 @@ const SearchContacts = ({query , search}) => {
         onChange={search}
         dir='rtl' 
         className='rounded p-1 text-light' 
-        placeholder='جستوجوی مخاطب' 
+        placeholder='جستجوی مخاطب' 
         style={{background:CURRENTLINE , outline:"none", border:"none" , lineHeight:"30px"}}/>
         
     </div>
