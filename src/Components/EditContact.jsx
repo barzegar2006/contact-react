@@ -108,7 +108,7 @@ const EditContact = ({forceRender , setForceRender}) => {
                     <div>
                       <input type="text"
                         name='photo'
-                        value={contact.photo}
+                        value={contact.photo || "https://placehold.co/150"}
                         onChange={setContactInfo}
                         className='mb-2 py-1 px-5'
                         placeholder='آدرس تصویر' />
